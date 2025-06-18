@@ -11,6 +11,10 @@
   - Neel Nanda videos
 - Weekend: Start coding/implementing
 
+Kode (av Neel Nanda): https://arena3-chapter1-transformer-interp.streamlit.app/[1.2]_Intro_to_Mech_Interp
+
+
+
 ### Week 26
   
 
