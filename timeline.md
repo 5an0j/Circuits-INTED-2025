@@ -7,6 +7,8 @@
   - Neel Nanda reading list (2024, potentially outdated): https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite-1
     - Sparse autoencoders
     - Circuits
+  - Arena tutorials?
+  - Neel Nanda videos
 - Weekend: Start coding/implementing
 
 ### Week 26
