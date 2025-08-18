@@ -22,8 +22,8 @@ Fullføre comp essay, skrive basic readme,
         
         - figures from report (ev. only comp essays)
 
-- Test
-    - junk
+- Extras
+    This folder contains non-deliverables. While we removed messy test files, there might be some interesting extra stuff?
 
 
 Future work / overview 
