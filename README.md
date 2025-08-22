@@ -15,6 +15,7 @@ Main directory, containing the project deliverables
     
 - **`Computational essays/`**
     Contains the following computational essays, divinded into three parts for readability and environment compatibility.
+    
     - `Overview` : A brief overview of the essays to come (perhaps with the overview section from the report? otherwise, might cut and add the one-line-descriptions here instead.)
     - `CE1_Encoder` : 
     - `CE2_Attribution` : 
@@ -22,6 +23,7 @@ Main directory, containing the project deliverables
     
     - `Environments/`
         Contains conda environments for running each computational essay. (For the most part, one could use any environment with standard packages for ML (with Torch) plus Captum, BertViz, TransformerLens and CircuitsVis, though there are some annoying version dependencies in CE2 which the provided environment solves.)
+
 - **`Report/`**
     Contains the report in pdf-format.
     - `report_name` :
