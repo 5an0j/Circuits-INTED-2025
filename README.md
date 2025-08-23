@@ -11,21 +11,27 @@ Main directory, containing the project deliverables
     
 **`Computational essays/`**
 
-Contains the following computational essays, divinded into three parts for readability and environment compatibility.
+Contains the following computational essays, divided into three parts for readability and environment compatibility.
     
-- `Overview` : A brief overview of the essays to come (perhaps with the overview section from the report? otherwise, might cut and add the one-line-descriptions here instead.)
-- `CE1_Encoder` : 
-- `CE2_Attribution` : 
-- `CE3_Decoder` : 
+- `CE1_Encoder` : A thorough run-through of our work on BERT encoder models, showing central methods such as ablation, activation patching and path patching. It concludes with the discovery of a possible color-detection head.
+    - Datasets FCI.json and test.tok.json are used in CE1 and explained there.
+- `CE2_Attribution` : Using input attribution from Captum, we seek to i) find model misconceptions on physics questions, and ii) compare the embedding space structure of different embedding models, though the results are disappointing. We also briefly present encoder visualisation with BertViz.
+- `CE3_Decoder` : We demonstrate finding induction heads in small-scale models, activation patching for GPT-style models and visualizing prediction developments with logit lens. 
 
 - `Environments/`
     Contains conda environments for running each computational essay. (For the most part, one could use any environment with standard packages for ML (with Torch) plus Captum, BertViz, TransformerLens and CircuitsVis, though there are some annoying version dependencies in CE2 which the provided environment solves.)
 
+- `Code files\` 
+    Contains a .py file with a class implementation of the interventions from CE1, with a documentation notebook demo-ing its use. Together with the class doc-strings, this is hopefully sufficent documentation to permit external use.
+
+
 **`Report/`**
 
-Contains the report in pdf-format and perhaps figures.
-- `report_name` :
+Contains the report in pdf- and word-format.
+- `Circuits.pdf` : Note that this report is *very* long. **We suggest reading the abstract, then skipping to the overview (Section 2), before reading the first few paragraphs under each to each subsection in Applications (First paragraphs of section 4.1 and 4.2 and 4.3)**. This should give enough context that the reader will be able to navigate to the subsections of interest in the theory and applications section. The introduction and discussion are written to be general and should not require that the reader is familiar with the theory section nor details from the applications section.
+- `Circuits.docx` : Report in editable format.
 - `figures/`
+Contains figures if relevant.
 
 
 ### `Supplementary/`
