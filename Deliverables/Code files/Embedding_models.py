@@ -162,7 +162,7 @@ def main():
 
     #initialize the model
     global model
-    model = AutoModel.from_pretrained("sentence-transformers/multi-qa-MiniLM-L6-cos-v1", trust_remote_code = True)
+    model = AutoModel.from_pretrained("sentence-transformers/multi-qa-MiniLM-L6-cos-v1", trust_remote_code = True,attn_implementation="eager")
     model.eval()
 
     # Use GPU if available; if not, use the CPU
