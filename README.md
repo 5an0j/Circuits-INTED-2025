@@ -36,4 +36,4 @@ Contains figures if relevant.
 
 
 ### `Supplementary/`
-This folder contains non-deliverables. While we removed messy test files, there are some general notes (glossary, article/resource references, questions and answers, test code) which is most likely not very interesting unless one is familiar with the project.
+This folder contains non-deliverables. While we removed most messy test files, there are some general notes (glossary, admin, article/resource references, questions and answers, test code) which is most likely not very interesting unless one is familiar with the project.
